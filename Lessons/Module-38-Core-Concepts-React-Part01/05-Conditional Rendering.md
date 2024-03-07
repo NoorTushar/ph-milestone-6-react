@@ -1,4 +1,4 @@
-### 🟪 Option 1:
+### 🟪 Option 1 :
 
 ```jsx
 export default function Todo({ task, isDone }) {
