@@ -60,3 +60,44 @@ export default function Book({ book }) {
    );
 }
 ```
+
+Output:
+
+<img src="attachments/Pasted image 20240308172049.png">
+
+What has happened actually?
+
+<img src="attachments/Pasted image 20240308172707.png">
+
+Great! Now let us apply some styles to each of the Book div.
+
+= We have created a separate file named `Book.css`
+
+```css
+.book {
+   margin: 20px;
+   padding: 20px;
+   border: 2px solid lime;
+   border-radius: 15px;
+}
+```
+
+import the css file in the `Book.jsx` file and use `className`
+
+```jsx
+import("./Book.css");
+
+export default function Book({ book }) {
+   const { name, price } = book;
+   return (
+      <div className="book">
+         <p>Book Name is: {name}</p>
+         <p>Price is: ${price}</p>
+      </div>
+   );
+}
+```
+
+Output:
+
+<img src="attachments/Pasted image 20240308173403.png">
