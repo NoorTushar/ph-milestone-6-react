@@ -43,6 +43,8 @@ Example,
 </ul>
 ```
 
+To remember: think we need to `style` the element using an `object`. And `objects` should be wrapped in outer curly braces as object is a javascript code.
+
 ### 🟪 Let us create our first component
 
 <img src="attachments/Pasted image 20240307211916.png">
