@@ -14,7 +14,7 @@ Let's you deal with asynchronous tasks like fetching datas from APIs.
 2. We pass [ ], this will run once after the initial render
 3. We pass [a,b], this will run if either `a` or `b` is changed after last render.
 
-### 🟪 Example 1: Let us load some data from an external resource
+### 🟪 Example 1: Let us load some data from an external resources
 
 -  External thike amra nibo let's say JSON placeholders websites
 -  So amra data paiteo pari, na o paite pari, so aita amra akta state e rakhbo.
