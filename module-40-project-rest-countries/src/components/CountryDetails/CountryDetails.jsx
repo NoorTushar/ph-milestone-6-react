@@ -12,14 +12,3 @@ const CountryDetails = (props) => {
 };
 
 export default CountryDetails;
-
-<AnotherComponent data={1} value={2} />;
-function AnotherComponent(props) {
-   // Here we will access data and value
-   return (
-      <div>
-         <p>{data}</p>
-         <p>{value}</p>
-      </div>
-   );
-}
