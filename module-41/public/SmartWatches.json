@@ -1,0 +1,26 @@
+[
+   {
+      "brand": "Apple",
+      "model": "Apple Watch Series 6",
+      "screenSize": "40mm",
+      "color": "Space Gray",
+      "price": 399,
+      "features": ["ECG", "GPS", "Fitness Tracking", "Water Resistant"]
+   },
+   {
+      "brand": "Samsung",
+      "model": "Galaxy Watch 4",
+      "screenSize": "44mm",
+      "color": "Phantom Black",
+      "price": 349,
+      "features": ["ECG", "GPS", "Fitness Tracking", "Blood Oxygen Monitoring"]
+   },
+   {
+      "brand": "Fitbit",
+      "model": "Fitbit Sense",
+      "screenSize": "35mm",
+      "color": "Carbon/Graphite",
+      "price": 299,
+      "features": ["ECG", "GPS", "Heart Rate Monitoring", "Stress Tracking"]
+   }
+]
