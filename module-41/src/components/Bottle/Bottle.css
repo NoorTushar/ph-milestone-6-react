@@ -1,0 +1,11 @@
+.bottle-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.bottle {
+   border: 1px solid greenyellow;
+   margin: 10px;
+   padding: 20px;
+   border-radius: 10px;
+}
